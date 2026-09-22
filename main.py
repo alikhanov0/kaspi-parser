@@ -10,7 +10,7 @@ headers = {
     "User-Agent": st_useragent
 }
 
-req = requests.get("https://kaspi.kz/shop/c/smartphones/?q=%3AavailableInZones%3AMagnum_ZONE1%3Acategory%3ASmartphones%3ASmartphones*Series%3AApple%20iPhone%2017%20Pro%20Max&sort=relevance&sc=", headers=headers)
+req = requests.get("https://kaspi.kz/yml/product-view/pl/results?page=1&q=%3AavailableInZones%3AMagnum_ZONE1%3Acategory%3ASmartphones%3ASmartphones*Series%3AApple%20iPhone%2017%20Pro%20Max&text&sort=relevance&qs&requestId=7e4b87a629a9c20118c66e3de410251e&ui=d&i=-1&c=750000000", headers=headers)
 
 src = req.text
 
